@@ -1,0 +1,23 @@
+---
+name: XML-OBEXFTP-FolderListing
+version: 0.002
+author:
+  - 'Zoffix Znet <zoffix@cpan.org>'
+abstract: parse OBEX FTP x-obex/folder-listing XML
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Carp: 1.04
+  Class::Data::Accessor: 0.04001
+  XML::Simple: 2.18
+build_requires:
+  Test::More: 0
+provides:
+  XML::OBEXFTP::FolderListing:
+    file: lib/XML/OBEXFTP/FolderListing.pm
+    version: 0.002
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
