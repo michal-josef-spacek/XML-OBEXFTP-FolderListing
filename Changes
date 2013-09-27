@@ -1,5 +1,8 @@
 Revision history for XML-OBEXFTP-FolderListing
 
+0.003
+        fix 'Use of qw(...) as parentheses' warnings
+
 0.002   Mar 3, 2008
         Fixed a bug when ->folders() and ->files() would give
             incorrect info when only one file or folder is present.

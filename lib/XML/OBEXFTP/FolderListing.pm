@@ -7,7 +7,7 @@ our $VERSION = '0.002';
 use Carp;
 use XML::Simple;
 use base 'Class::Data::Accessor';
-__PACKAGE__->mk_classaccessors qw(folders files parent_folder  tree);
+__PACKAGE__->mk_classaccessors( qw(folders files parent_folder  tree));
 
 sub new {
     return bless {}, shift;
